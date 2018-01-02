@@ -15,7 +15,7 @@ body {
 */
 .headerppal {
 	background-color: #BAC48F;
-	height: 5em;
+	height: auto;
 	width: 100%;
 }
 
@@ -23,6 +23,13 @@ body {
 	margin: 0 0 0 auto;
 	color: #595644;
 }
+
+.navsection {
+	float: right;
+	padding: 1em;
+}
+
+
 /*
 *Estilos  main
 */
@@ -42,8 +49,9 @@ width: 100%;
 .info-user img {
 	border-radius: 50%;
 	height: 100%;
-	width: 1auto;
-	margin:  0.5em 0.5em;
+	width: auto;
+	margin-top: 1vh;
+	margin-left: 10vh;
 	
-	align-content: center;
 }
+
