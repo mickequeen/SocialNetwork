@@ -13,43 +13,45 @@ body {
 /*
 *Estilos header
 */
-.headerppal {
-	background-color: #BAC48F;
-	height: auto;
-	width: 100%;
+.navbar {
+  position: relative;
+  background-color: #68C159;
 }
 
-.logo {
-	margin: 0 0 0 auto;
-	color: #595644;
+.navbar-brand{
+  padding:10px 15px
 }
 
-.navsection {
+.icon {
+  width: 35px;
+  height: 35px;
+  padding-bottom:3px;
+}
+
+.i {
+  font-size:25px;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:12px;
+}
+
+.shop {
+	margin-top: 0.2em;
+	margin-left: 1em;
+}
+
+.lupa {
+  font-size: 20px;
+}
+
+.menuright {
 	float: right;
-	padding: 1em;
 }
 
-
+.menuright li {
+	padding-right: 1em;
+	margin-top: 0.5em;
+}
 /*
 *Estilos  main
 */
-.main {
-	background-color: grey;
-	width: 100%;
-	height:  100vh;
-}
-
-.main img {
-	border-radius: 50%;
-	height: 10%;
-	width: auto;
-	margin-top: 1.5vh;
-	margin-left: 10vh;
-}
-
-.comments {
-	align-content: center;
-	margin-left: 30vh;
-	width: 70%;
-}
-
