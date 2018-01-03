@@ -297,3 +297,24 @@ margin-right: 7px;
     outline: none;
     cursor: inherit;
 }
+
+/*
+Estilos  Page User
+*/
+
+/*
+Info Jumbotron
+*/
+.myInfo {
+  width: 93vh;
+  margin-left: 54vh;
+}
+
+.myInfo h1{
+  font-size: 25px;
+  text-align: center;
+}
+
+.myInfo p{
+  text-align: center;
+}
