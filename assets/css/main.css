@@ -280,6 +280,10 @@ border-left-color: #2dcb73;
 margin-right: 7px;
 }
 
+
+/*
+*configuración de botón input file
+*/
 .btn-bs-file{
     position:relative;
 }
