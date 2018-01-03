@@ -11,15 +11,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #B2DFB5;
 	background-size: cover;
+  padding-top: 70px;
 }
 
 /*
 *Estilos header
 */
-.navbar {
-  position: relative;
-  background-color: #68C159;
-}
 
 .navbar-brand{
   padding:10px 15px;
