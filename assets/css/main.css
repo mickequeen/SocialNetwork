@@ -37,8 +37,6 @@ body {
   padding-bottom:3px;
 }
 
-
-
 .i {
   font-size:25px;
   padding-left:20px;
@@ -73,6 +71,9 @@ span .icon-bar {
   margin-top: 0.5em;
 }
 
+.collect {
+  padding-left: 9em;
+}
 /*
 *Estilos Section Main
 */
@@ -137,6 +138,9 @@ Contactos
   border-radius: 0.5em;
   padding: 2em;
 }
+#contactos h4{
+  font-size: 23px;
+}
 
 #contactos img{
   width: 4em;
@@ -148,6 +152,14 @@ Contactos
 .info-contacto{
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.info-contacto {
+  padding-top: 1em;
+}
+
+.info-contacto p {
+  padding-top: 0.5em;
 }
 
 .nombre-contact{
