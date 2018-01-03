@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Document</title>
+	<title>El Coleccionista</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome-all.css">
   <link rel="stylesheet" href="assets/css/main.css">
@@ -17,6 +17,7 @@
   <div class="container-fluid col-md-10 col-lg-10">
   <!-- Icono navbar -->
     <div class="navbar-header">
+  <!-- Menú Hamburguesa -->
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -25,9 +26,8 @@
       </button>
       <a class="navbar-brand" href="#"><i class="fa fa-shopping-basket shop" aria-hidden="true"></i></a>
     </div>
-  <!-- Menú Hamburguesa -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav ">
         </li>
       </ul>
   <!-- Search navbar -->
@@ -46,57 +46,66 @@
         <li><b>Salir</b></li>
       </ul>
   </header>
-  <!-- Section 1-->
+  <!-- Section Main-->
   <section>
     <div class="container-fluid">
+      <div class="col-lg-2 col-md-2 info-user hidden-xs hidden-sm">
+          <div class="row">
+            <div class="col-lg-12 col-md-10">
+              <h4>Soy yo</h4>
+              <img src="assets/img/ninja.png" alt="">
+            <h4>Redes</h4>
+          </div>
+          </div>
+        </div>
       <div class="row">
-        <div class="col-lg-8 publicar col-lg-offset-1">
+        <div class="col-lg-6 publicar col-lg-offset-1">
           <div class="">
-            <div class="col-lg-10 col-md-10 col-sm-10 col-sm-offset-1 nuevapub hidden-xs">
+            <div class="col-lg-12 col-md-12 col-sm-10 col-sm-offset-1 nuevapub hidden-xs">
             </div>
           </div>
         </div>
-        <div class="col-lg-2 contactos hidden-xs hidden-sm">
+        <div class="col-lg-2 col-md-2 contactos hidden-xs hidden-sm">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 col-md-10">
             <h4>Contactos</h4>
           </div>
         </div>
         <div class="row info-contacto">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4">
             <img src="assets/img/lucifer08.jpg" alt="Lucifer">
           </div>
-          <div class="col-lg-8 nombre-contact">
+          <div class="col-lg-8 col-md-8 nombre-contact">
             <p>Lucifer</p>
           </div>
         </div>
-        <div class="row contact">
-          <div class="col-lg-4">
+        <div class="row info-contacto">
+          <div class="col-lg-4 col-md-4">
             <img src="assets/img/popkin.jpg" alt="pupkin" alt="pupkin">
           </div>
-          <div class="col-lg-8 nameContact">
+          <div class="col-lg-8 col-md-8 nombre-contact">
             <p>Soy yo</p>
           </div>
         </div>
-        <div class="row contact">
-          <div class="col-lg-4">
+        <div class="row info-contacto">
+          <div class="col-lg-4 col-md-4">
             <img src="assets/img/user.png" alt="el innombrable">
           </div>
-          <div class="col-lg-8 nameContact">
+          <div class="col-lg-8 col-md-8 nombre-contact">
             <p>El innombrable</p>
           </div>
         </div>
-        <div class="row contact">
-          <div class="col-lg-4">
+        <div class="row info-contacto">
+          <div class="col-lg-4 col-md-4">
             <img src="assets/img/userñoño.jpg" alt="Ñoño">
           </div>
-          <div class="col-lg-8 nameContact">
+          <div class="col-lg-8 col-md-8 nombre-contact">
             <p>Ñoño</p>
           </div>
         </div>
         
         
-      </div>
+      </div><!-- fin col contactos-->
       </div><!-- fin row-->
     </div><!-- fin container-fluid-->
     
