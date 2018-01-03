@@ -26,7 +26,10 @@ body {
   padding:10px 15px;
   color: black;
   margin-top: 0.8em;
+}
 
+.hamb {
+  margin-top: 1em;
 }
 
 .icon {
@@ -35,9 +38,7 @@ body {
   padding-bottom:3px;
 }
 
-.shop {
-	color: black;
-}
+
 
 .i {
   font-size:25px;
