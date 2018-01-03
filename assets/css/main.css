@@ -157,6 +157,16 @@ Contactos
   margin-top: 5%;
 }
 
+
+/*
+contenedor creado desde js
+*/
+.contComment{
+  background-color: #FFF;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: 1em;
+}
 /*
 *Estilos caja de comentarios
 */
