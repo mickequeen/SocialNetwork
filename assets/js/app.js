@@ -11,9 +11,12 @@ $(document).ready(function(){
       "' class='fas fa-heart'></i><i id='thumbUp_" + idThumbUp +
       "' class='fas fa-thumbs-up'></i><i id='thumbDown_" + idThumbDown + "' class='fas fa-thumbs-down'></i></div></div>");
     $("#heart_"+idHeart).click(function(){
-      $(this).toggleClass('red')
-      });
-    idHeart++;#5DD368
+      $(this).toggleClass('red');
+    });
+    $("#thumbUp_"+idThumbUp).click(function(){
+      $(this).toggleClass('green');
+    });
+    idHeart++;
     idThumbDown++;
     idThumbUp++;
   })
