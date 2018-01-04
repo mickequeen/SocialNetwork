@@ -2,43 +2,44 @@
 *Estilos generales
 */
 *{
-  margin: 0;
-  padding: 0;
-  
+	margin: 0;
+	padding: 0;
+	
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #B2DFB5;
 	background-size: cover;
-  padding-top: 70px;
+	padding-top: 70px;
 }
 
 /*
-*Estilos header
+* Estilos --index.html--
+*Header
 */
 
 .navbar-brand{
-  padding:10px 15px;
-  color: black;
-  margin-top: 0.8em;
+	padding:10px 15px;
+	color: black;
+	margin-top: 0.8em;
 }
 
 .hamb {
-  margin-top: 1em;
+	margin-top: 1em;
 }
 
 .icon {
-  width: 35px;
-  height: 35px;
-  padding-bottom:3px;
+	width: 35px;
+	height: 35px;
+	padding-bottom:3px;
 }
 
 .i {
-  font-size:25px;
-  padding-left:20px;
-  padding-right: 20px;
-  padding-top:12px;
+	font-size:25px;
+	padding-left:20px;
+	padding-right: 20px;
+	padding-top:12px;
 }
 
 .shop {
@@ -47,7 +48,7 @@ body {
 }
 
 .lupa {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 .menuright {
@@ -57,7 +58,7 @@ body {
 .menuright li a {
 	padding-right: 1em;
 	margin-top: 0em;
-  display: inline-block;
+	display: inline-block;
 }
 
 span .icon-bar {
@@ -65,17 +66,17 @@ span .icon-bar {
 }
 
 .has-feedback {
-  margin-top: 0.5em;
+	margin-top: 0.5em;
 }
 
 .collect {
-  padding-left: 3em;
+	padding-left: 3em;
 }
 /*
 *Estilos Section Main
 */
 #contGeneral{
-  margin-top: -1.5em;
+	margin-top: -1.5em;
 }
 /*
 Estilos Info-User
@@ -86,14 +87,14 @@ Estilos Info-User
 }
 
 #infoUser{
-  padding-top: 2em;
+	padding-top: 2em;
 	text-align: center;
 	height: 100vh;
-  background-color: #FFF;
+	background-color: #FFF;
 }
 
 #infoUser p a{
-  color: black;
+	color: black;
 }
 
 #infoUser h3{
@@ -117,8 +118,8 @@ Nueva publicación
 }
 
 #publicar{
-  border-radius: 5em;
-  height: 100vh;
+	border-radius: 5em;
+	height: 100vh;
 }
 
 /*
@@ -127,40 +128,42 @@ Contactos
 #contactos{
 	background-color: #FFF;
 	height: 100vh;
-  margin-top: -22vh;
+	margin-top: 1vh;
+	display: inline-block;
 }
+
 #contactos h4{
-  font-size: 23px;
-  margin-top: 5vh;
-  text-align: center;
+	font-size: 23px;
+	margin-top: 4vh;
+	text-align: center;
 }
 
 #contactos img{
-  width: 4em;
-  height: 4em;
-  border-radius: 50%;
-  padding-bottom: 0.5em;
-  display: inline-block;
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;
+	padding-bottom: 0.5em;
+	display: inline-block;
 }
 
 .info-contacto{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-top: vh;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-top: vh;
 }
 
 .info-contacto {
-  padding-top: 1em;
+	padding-top: 1em;
 }
 
 .info-contacto p {
-  padding-top: 0.5em;
-  margin-left: 1em;
+	padding-top: 0.5em;
+	margin-left: 1em;
 }
 
 .nombre-contact{
-  margin-top: 0.5em;
-  display: inline-block;
+	margin-top: 0.5em;
+	display: inline-block;
 }
 
 
@@ -168,10 +171,10 @@ Contactos
 contenedor creado desde js
 */
 .contComment{
-  background-color: #FFF;
-  border-radius: 1em;
-  padding: 1em;
-  margin-top: 1em;
+	background-color: #FFF;
+	border-radius: 1em;
+	padding: 1em;
+	margin-top: 1em;
 }
 /*
 *Estilos caja de comentarios
@@ -291,138 +294,176 @@ margin-right: 7px;
 *configuración de botón input file
 */
 .btn-bs-file{
-    position:relative;
+		position:relative;
 }
 .btn-bs-file input[type="file"]{
-    position: absolute;
-    top: -9999999;
-    filter: alpha(opacity=0);
-    opacity: 0;
-    width:0;
-    height:0;
-    outline: none;
-    cursor: inherit;
+		position: absolute;
+		top: -9999999;
+		filter: alpha(opacity=0);
+		opacity: 0;
+		width:0;
+		height:0;
+		outline: none;
+		cursor: inherit;
 }
 
 /*
-Estilos  Page User
+Estilos --myinfo.html--
 */
 
 .myInfo {
-  padding: 10vh;
-  height: auto;
-  width: 80%;
+	padding: 10vh;
+	height: auto;
+	width: 80%;
 }
 
 .myInfo h1{
-  font-size: 25px;
-  text-align: center;
+	font-size: 25px;
+	text-align: center;
 }
 
 .myInfo p{
-  text-align: center;
+	text-align: center;
 }
 
 .myInfo img {
-  border-radius: 50%;
-  height: 15vh;
-  margin-left: 13em;
-  float: left;
-  display: inline-block;
+	border-radius: 50%;
+	height: 15vh;
+	margin-left: 13em;
+	float: left;
+	display: inline-block;
 }
 
 .myInfo h3{
-  padding: 3em;
-  margin-left: 5em;
+	padding: 3em;
+	margin-left: 5em;
 }
 
 .fa {
-  padding: 0.2em;
+	padding: 0.2em;
 }
 
+#myCollections{
+	background-color: #FFF;
+	height: 100vh;
+	margin-top: -21vh;
+	display: inline-block;
+}
+
+#myCollections h4{
+	font-size: 23px;
+	margin-top: 4vh;
+	text-align: center;
+}
+
+#myCollections img{
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;
+	padding-bottom: 0.5em;
+	display: inline-block;
+}
+
+.info-collection{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-top: vh;
+}
+
+.info-contacto p {
+	padding-top: 0.5em;
+	margin-left: 1em;
+}
+
+.nombre-collection{
+	margin-top: 0.5em;
+	display: inline-block;
+}
+
+
 /*
-Modal Login
+Estilos --login.html--
 */
 .login img {
-  margin-left: 55%;
-  border-radius: 50%;
+	margin-left: 55%;
+	border-radius: 50%;
 }
 .logo-in {
-  color: #8C8585;
-  margin-left: 50%;
+	color: #8C8585;
+	margin-left: 50%;
 }
 #login {
-    padding-top: 50px
+		padding-top: 50px
 }
 #login .form-wrap {
-    width: 30%;
-    margin: 0 auto;
+		width: 30%;
+		margin: 0 auto;
 }
 #login h1 {
-    color: #1fa67b;
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 20px;
+		color: #1fa67b;
+		font-size: 18px;
+		text-align: center;
+		font-weight: bold;
+		padding-bottom: 20px;
 }
 #login .form-group {
-    margin-bottom: 25px;
+		margin-bottom: 25px;
 }
 #login .checkbox {
-    margin-bottom: 20px;
-    position: relative;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+		margin-bottom: 20px;
+		position: relative;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
 }
 #login .checkbox.show:before {
-    content: '\e013';
-    color: #1fa67b;
-    font-size: 17px;
-    margin: 1px 0 0 3px;
-    position: absolute;
-    pointer-events: none;
-    font-family: 'Glyphicons Halflings';
+		content: '\e013';
+		color: #1fa67b;
+		font-size: 17px;
+		margin: 1px 0 0 3px;
+		position: absolute;
+		pointer-events: none;
+		font-family: 'Glyphicons Halflings';
 }
 #login .checkbox .character-checkbox {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    vertical-align: middle;
-    display: inline-block;
+		width: 25px;
+		height: 25px;
+		cursor: pointer;
+		border-radius: 3px;
+		border: 1px solid #ccc;
+		vertical-align: middle;
+		display: inline-block;
 }
 #login .checkbox .label {
-    color: #6d6d6d;
-    font-size: 13px;
-    font-weight: normal;
+		color: #6d6d6d;
+		font-size: 13px;
+		font-weight: normal;
 }
 #login .btn.btn-custom {
-    font-size: 14px;
-  margin-bottom: 20px;
+		font-size: 14px;
+	margin-bottom: 20px;
 }
 #login .forget {
-    font-size: 13px;
-  text-align: center;
-  display: block;
+		font-size: 13px;
+	text-align: center;
+	display: block;
 }
 
 /*    --------------------------------------------------
-  :: Inputs & Buttons
-  -------------------------------------------------- */
+	:: Inputs & Buttons
+	-------------------------------------------------- */
 .form-control {
-    color: #212121;
+		color: #212121;
 }
 .btn-custom {
-    color: #fff;
-  background-color: #1fa67b;
+		color: #fff;
+	background-color: #1fa67b;
 }
 .btn-custom:hover,
 .btn-custom:focus {
-    color: #fff;
+		color: #fff;
 }
 
 /*
@@ -430,5 +471,5 @@ Estilos  Panel de interés user/contact
 */
 
 #interestedBy {
-  padding-top: 5vh;
+	padding-top: 5vh;
 }
