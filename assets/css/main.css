@@ -138,6 +138,7 @@ Contactos
   height: 4em;
   border-radius: 50%;
   padding-bottom: 0.5em;
+  display: inline-block;
 }
 
 .info-contacto{
@@ -151,10 +152,12 @@ Contactos
 
 .info-contacto p {
   padding-top: 0.5em;
+  margin-left: 1em;
 }
 
 .nombre-contact{
-  margin-top: 5%;
+  margin-top: 0.5em;
+  display: inline-block;
 }
 
 
@@ -281,7 +284,6 @@ border-left-color: #2dcb73;
 margin-right: 7px;
 }
 
-
 /*
 *configuración de botón input file
 */
@@ -303,12 +305,10 @@ margin-right: 7px;
 Estilos  Page User
 */
 
-/*
-Info Jumbotron
-*/
 .myInfo {
-  width: 93vh;
-  margin-left: 54vh;
+  padding: 10vh;
+  height: auto;
+  width: 80%;
 }
 
 .myInfo h1{
@@ -318,4 +318,21 @@ Info Jumbotron
 
 .myInfo p{
   text-align: center;
+}
+
+.myInfo img {
+  border-radius: 50%;
+  height: 15vh;
+  margin-left: 13em;
+  float: left;
+  display: inline-block;
+}
+
+.myInfo h3{
+  padding: 3em;
+  margin-left: 5em;
+}
+
+.fa {
+  padding: 0.2em;
 }
