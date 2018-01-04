@@ -212,6 +212,11 @@ h4 {
 .gray{
 	color: #545252!important;
 }
+
+#icons i:hover{
+  color: #94EFC7;
+
+}
 /*
 contenedor creado desde js
 */
@@ -442,6 +447,7 @@ Estilos --myContact.html--
 	padding-top: 2em;
 	text-align: center;
 	height: 100vh;
+  position: fixed;
 	background-color: #FFF;
 }
 
@@ -462,8 +468,8 @@ Estilos --myContact.html--
 #contactos_collect{
 	background-color: #FFF;
 	height: 100vh;
-	margin-top: -22vh;
 	display: inline-block;
+  position: fixed;
 }
 
 #contactos_collect h4{

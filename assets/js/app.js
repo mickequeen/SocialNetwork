@@ -4,6 +4,7 @@
 var idHeart = 0;
 var idThumbUp = 0;
 var idThumbDown = 0;
+var idTrash = 0;
 
 $(document).ready(function(){
 /*
@@ -26,7 +27,8 @@ $(document).ready(function(){
     $('#share').attr('disabled', 'true');
     $("#nuevaPub").append("<div class='contComment'>" + comentario + "<div id='icons'><i id='heart_" + idHeart +
       "' class='fas fa-heart'></i><i id='thumbUp_" + idThumbUp +
-      "' class='fas fa-thumbs-up'></i><i id='thumbDown_" + idThumbDown + "' class='fas fa-thumbs-down'></i></div></div>");
+      "' class='fas fa-thumbs-up'></i><i id='thumbDown_" + idThumbDown + "' class='fas fa-thumbs-down'></i><a id='basura'><i id='trash_'" + idTrash +
+      "' class='fas fa-trash-alt'></i></a></div></div>");
 /*
 *funciónes para dar colores a íconos al hacer click
 */
