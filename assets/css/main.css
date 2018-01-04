@@ -221,9 +221,14 @@ Contactos
   padding-right: 1em;
 }
 
+
 h4 {
 	color: #90a8ce;
 	font-weight: bolder;
+}
+
+.red{
+  color:  red !important;
 }
 
 /*
