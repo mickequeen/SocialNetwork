@@ -127,10 +127,12 @@ Contactos
 #contactos{
 	background-color: #FFF;
 	height: 100vh;
-  padding: 2em;
+  margin-top: -22vh;
 }
 #contactos h4{
   font-size: 23px;
+  margin-top: 5vh;
+  text-align: center;
 }
 
 #contactos img{
@@ -144,6 +146,7 @@ Contactos
 .info-contacto{
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-top: vh;
 }
 
 .info-contacto {
@@ -422,3 +425,10 @@ Modal Login
     color: #fff;
 }
 
+/*
+Estilos  Panel de interés user/contact
+*/
+
+#interestedBy {
+  padding-top: 5vh;
+}
