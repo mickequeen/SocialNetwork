@@ -140,6 +140,7 @@ Estilos Info-User
 
 #infoUser h3{
 	text-align: center;
+	color: #90a8ce;
 }
 
 #infoUser img{
@@ -179,6 +180,10 @@ Contactos
 	text-align: center;
 }
 
+#contactos h4 span {
+	color: black;
+}
+
 #contactos img{
 	width: 4em;
 	height: 4em;
@@ -215,6 +220,12 @@ Contactos
   color: #CCCACA;
   padding-right: 1em;
 }
+
+h4 {
+	color: #90a8ce;
+	font-weight: bolder;
+}
+
 /*
 contenedor creado desde js
 */
@@ -398,7 +409,7 @@ Estilos --myContact.html--
 #myCollections{
 	background-color: #FFF;
 	height: 100vh;
-	margin-top: -21vh;
+	margin-top: 0vh;
 	display: inline-block;
 }
 
@@ -406,6 +417,7 @@ Estilos --myContact.html--
 	font-size: 23px;
 	margin-top: 4vh;
 	text-align: center;
+	color: black;
 }
 
 #myCollections img{
@@ -456,6 +468,32 @@ Estilos --myContact.html--
 	border-radius: 50%;
 	height: 10vh;
 }
+
+#contactos_collect{
+	background-color: #FFF;
+	height: 100vh;
+	margin-top: -22vh;
+	display: inline-block;
+}
+
+#contactos_collect h4{
+	font-size: 23px;
+	margin-top: 4vh;
+	text-align: center;
+}
+
+#contactos_collect h4 span {
+	color: black;
+}
+
+#contactos_collect img{
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;
+	padding-bottom: 0.5em;
+	display: inline-block;
+}
+
 
 /*
 Estilos --login.html--
