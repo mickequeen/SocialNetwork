@@ -14,7 +14,7 @@ body {
 	padding-top: 70px;
 }
 
-*
+/*
 *Icono loader
 */
 .loader{
@@ -226,7 +226,9 @@ h4 {
 	color: #90a8ce;
 	font-weight: bolder;
 }
-
+/*
+*coloreando íconos de publicación
+*/
 .red{
   color:  red !important;
 }
@@ -235,6 +237,9 @@ h4 {
   color: #5DD368!important;
 }
 
+.gray{
+	color: #545252!important;
+}
 /*
 contenedor creado desde js
 */
