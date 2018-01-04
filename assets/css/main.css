@@ -621,3 +621,8 @@ Estilos --login.html--
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
 }
+
+#myCarousel {
+	width: 60vh;
+	margin-left: 10vh;
+}
