@@ -11,7 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #B2DFB5;
   background-size: cover;
-  padding-top: 70px;
+  padding-top: 4.5em;
 }
 
 #bodyLuci{
@@ -65,59 +65,17 @@ hr {
 *Header
 */
 
-.navbar-brand{
-	padding:10px 15px;
-	color: black;
-	margin-top: 0.8em;
-}
-
-.hamb {
-	margin-top: 1em;
-}
-
-.icon {
-	width: 35px;
-	height: 35px;
-	padding-bottom:3px;
-}
-
-.i {
-	font-size:25px;
-	padding-left:20px;
-	padding-right: 20px;
-	padding-top:12px;
-}
-
-.shop {
-	margin-top: 0.2em;
-	margin-left: 1em;
-}
-
-.lupa {
-	font-size: 20px;
+#nav{
+  text-align: center;
 }
 
 .menuright {
   float: right;
   padding-right: 2em;
 }
-
-.menuright li a {
-	padding-right: 1em;
-	margin-top: 0em;
-	display: inline-block;
-}
-
-span .icon-bar {
-	color: black;
-}
-
-.has-feedback {
-	margin-top: 0.5em;
-}
-
-.collect {
-	padding-left: 3em;
+#title{
+  padding-left: 3em;
+  font-weight: bolder;
 }
 /*
 *Estilos Section Main
