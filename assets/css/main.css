@@ -2,17 +2,22 @@
 *Estilos generales
 */
 *{
-	margin: 0;
-	padding: 0;
-	
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-	background-color: #B2DFB5;
-	background-size: cover;
-	padding-top: 70px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #B2DFB5;
+  background-size: cover;
+  padding-top: 70px;
 }
+
+#bodyLuci{
+  margin-top: -1.5em;
+}
+
 
 /*
 *Icono loader
@@ -93,7 +98,8 @@ hr {
 }
 
 .menuright {
-	float: right;
+  float: right;
+  padding-right: 2em;
 }
 
 .menuright li a {
@@ -132,6 +138,7 @@ Estilos Info-User
 	text-align: center;
 	height: 100vh;
 	background-color: #FFF;
+	position: fixed;
 }
 
 #infoUser p a{
@@ -145,7 +152,8 @@ Estilos Info-User
 
 #infoUser img{
 	border-radius: 50%;
-	height: 20vh;
+	height: 10em;
+	width: 10em
 }
 
 p{
@@ -172,6 +180,7 @@ Contactos
 	height: 100vh;
 	margin-top: 1vh;
 	display: inline-block;
+	position: fixed;
 }
 
 #contactos h4{
@@ -225,6 +234,11 @@ Contactos
 h4 {
 	color: #90a8ce;
 	font-weight: bolder;
+}
+
+#Picture{
+  margin-top: 0.5em;
+
 }
 /*
 *coloreando íconos de publicación
@@ -363,6 +377,9 @@ border-left-color: #2dcb73;
 margin-right: 7px;
 }
 
+#share{
+  margin-bottom: 1em;
+}
 /*
 *configuración de botón input file
 */
@@ -480,7 +497,8 @@ Estilos --myContact.html--
 
 #infoContact img{
 	border-radius: 50%;
-	height: 10vh;
+	height: 10em;
+  width: 10em;
 }
 
 #contactos_collect{
