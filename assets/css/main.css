@@ -592,9 +592,27 @@ Estilos --login.html--
 }
 
 /*
-Estilos  Panel de interés user/contact
+*Estilos  Panel de interés user/contact
 */
 
 #interestedBy {
 	padding-top: 5vh;
+}
+
+/*
+*Estilos Galería / Slider
+*/
+
+.hide-bullets {
+    list-style:none;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
 }
