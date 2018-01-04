@@ -166,7 +166,14 @@ Contactos
 	display: inline-block;
 }
 
+#icons{
+  padding-top: 1em;
+}
 
+#icons .fas{
+  color: #CCCACA;
+  padding-right: 1em;
+}
 /*
 contenedor creado desde js
 */

@@ -1,12 +1,13 @@
 $(document).ready(function(){
 
   $('#share').click(function(){
-    var comentario= $('#comment').val();
+    var comentario = $('#comment').val();
     $('#comment').val("");
-    $("#nuevaPub").append("<div class='contComment'>" + comentario + "</div>");
+    $("#nuevaPub").append("<div class='contComment'>" + comentario + "<div id='icons'><i class='fas fa-heart'></i><i class='fas fa-thumbs-up'></i><i class='fas fa-thumbs-down'></i></div></div>");
+  })
 
-
-
+  $(".heart").click(function(){
+    
   })
   /*$("[data-toggle=tooltip]").tooltip();*/
 
