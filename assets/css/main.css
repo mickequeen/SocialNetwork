@@ -14,6 +14,47 @@ body {
 	padding-top: 70px;
 }
 
+*
+*Icono loader
+*/
+.loader{
+  background-color: #444444;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 3;
+  text-align: center;
+}
+
+.fa-spinner{
+  font-size: 5rem;
+  text-align: center;
+}
+
+/*
+*Marca
+*/
+.brand {
+  color:#9388FA;
+  text-align: center;
+  padding-top: 30vh;
+  font-size: 450%;
+}
+
+h1{
+  color:#9388FA;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 100;
+}
+hr {
+  height: 1px;
+  border: 1px solid;
+}
+
 /*
 * Estilos --index.html--
 *Header
@@ -350,6 +391,10 @@ Estilos --myinfo.html--
 	padding: 0.2em;
 }
 
+/*
+Estilos --myContact.html--
+*/
+
 #myCollections{
 	background-color: #FFF;
 	height: 100vh;
@@ -387,6 +432,30 @@ Estilos --myinfo.html--
 	display: inline-block;
 }
 
+.pub-myinfo img {
+	width: 100%;
+	height: auto;
+}
+
+#infoContact{
+	padding-top: 2em;
+	text-align: center;
+	height: 100vh;
+	background-color: #FFF;
+}
+
+#infoContact p a{
+	color: black;
+}
+
+#infoContact h3{
+	text-align: center;
+}
+
+#infoContact img{
+	border-radius: 50%;
+	height: 10vh;
+}
 
 /*
 Estilos --login.html--
@@ -456,6 +525,10 @@ Estilos --login.html--
 		font-size: 13px;
 	text-align: center;
 	display: block;
+}
+
+.colleccionist {
+	margin-left: 4vh;
 }
 
 /*    --------------------------------------------------
