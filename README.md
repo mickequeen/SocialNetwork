@@ -1,4 +1,10 @@
-## 1. THE COLLECTOR 
+## 1. THE COLLECTOR v.1.0 (Enero de 2017)
+
+Autoras:
+**Carol Martínez
+**Diana Chaparro
+
+
 Desarrolla una red social que ayude a un collector (collecionista de todo tipo), en el proceso de búsqueda de ese objeto que tanto añora. En esta red social, el usuario debe puede crear su sesión con su respectivo login, y desde allí podrá relacionarse con personas que tengan su mismo tipo de afición u otras.
 
 **Flujo de la aplicación.**
