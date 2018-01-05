@@ -59,7 +59,60 @@ $(document).ready(function(){
     idThumbUp++;
     idTrash++;
   });
-
+/*
+*íconos de reacciones de HTML
+*/
+  $(".heartHtmlOne").click(function(){
+    $(this).toggleClass('red');
+    $('.thumbsUpHtmlOne').removeClass('green');
+    $('.thumbsDownHtmlOne').removeClass('gray');
+  });
+    $(".heartHtmlTwo").click(function(){
+    $(this).toggleClass('red');
+    $('.thumbsUpHtmlTwo').removeClass('green');
+    $('.thumbsDownHtmlTwo').removeClass('gray');
+  });
+  $(".heartHtmlThree").click(function(){
+    $(this).toggleClass('red');
+    $('.thumbsUpHtmlThree').removeClass('green');
+    $('.thumbsDownHtmlThree').removeClass('gray');
+  });
+  $(".thumbsUpHtmlOne").click(function(){
+    $(this).toggleClass('green');
+    $('.heartHtmlOne').removeClass('red');
+    $('.thumbsDownHtmlOne').removeClass('gray');
+  });
+  $(".thumbsUpHtmlTwo").click(function(){
+    $(this).toggleClass('green');
+    $('.heartHtmlTwo').removeClass('red');
+    $('.thumbsDownHtmlTwo').removeClass('gray');
+  });
+  $(".thumbsUpHtmlThree").click(function(){
+    $(this).toggleClass('green');
+    $('.heartHtmlThree').removeClass('red');
+    $('.thumbsDownHtmlThree').removeClass('gray');
+  });
+  $(".thumbsDownHtmlOne").click(function(){
+    $(this).toggleClass('gray');
+    $('.heartHtmlOne').removeClass('red');
+    $('.thumbsUpHtmlOne').removeClass('green');
+  });
+  $(".thumbsDownHtmlTwo").click(function(){
+    $(this).toggleClass('gray');
+    $('.heartHtmlTwo').removeClass('red');
+    $('.thumbsUpHtmlTwo').removeClass('green');
+  });
+  $(".thumbsDownHtmlThree").click(function(){
+    $(this).toggleClass('gray');
+    $('.heartHtmlThree').removeClass('red');
+    $('.thumbsUpHtmlThree').removeClass('greem');
+  });
+  $(".TrashHtmlOne").click(function(){
+    $(this).parent().parent().parent().remove();
+  })
+  $(".TrashHtmlThree").click(function(){
+    $(this).parent().parent().parent().remove();
+  })
   /*$("[data-toggle=tooltip]").tooltip();*/
 
 /*
