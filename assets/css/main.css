@@ -19,8 +19,8 @@ body {
 }
 
 .wall{
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: ;
+  padding-right: ;
 }
 
 
@@ -125,6 +125,9 @@ p{
 /*
 Nueva publicación
 */
+.panel{
+  margin-top: 1em;
+}
 
 #nuevaPub{
 	margin-left: 0em;
@@ -132,7 +135,6 @@ Nueva publicación
 
 #publicar{
 	border-radius: 5em;
-	height: 100vh;
 }
 
 /*
@@ -222,7 +224,7 @@ h4 {
   color: #94EFC7;
 }
 
-.fa-trash-alt{
+.fa-trash-alt, .TrashHtml{
   float: right;
 }
 
