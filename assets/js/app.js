@@ -27,13 +27,12 @@ $(document).ready(function(){
     $('#share').attr('disabled', 'true');
     $("#nuevaPub").append("<div class='contComment'>" + comentario + "<div id='icons'><i id='heart_" + idHeart +
       "' class='fas fa-heart'></i><i id='thumbUp_" + idThumbUp +
-      "' class='fas fa-thumbs-up'></i><i id='thumbDown_" + idThumbDown + "' class='fas fa-thumbs-down'></i><a id='basura'><i id='trash_'" + idTrash +
+      "' class='fas fa-thumbs-up'></i><i id='thumbDown_" + idThumbDown + "' class='fas fa-thumbs-down'></i><a id='basura'><i id='trash_" + idTrash +
       "' class='fas fa-trash-alt'></i></a></div></div>");
 /*
 *funciónes para dar colores a íconos al hacer click
 */
     var idCora = idHeart;
-    
     $("#heart_" + idHeart).click(function(){
       $(this).toggleClass('red');
       $("#thumbUp_" + idCora).removeClass('green');
@@ -51,9 +50,14 @@ $(document).ready(function(){
       $("#heart_" + idDown).removeClass('red');
       $("#thumbUp_" + idDown).removeClass('green');
     });
+    var idBasu = idTrash;
+    $('#trash_' + idTrash).click(function(){
+      $(this).parent().parent().parent().remove();
+    });
     idHeart++;
     idThumbDown++;
     idThumbUp++;
+    idTrash++;
   });
 
   /*$("[data-toggle=tooltip]").tooltip();*/
