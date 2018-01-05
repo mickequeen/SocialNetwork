@@ -223,11 +223,23 @@ h4 {
 #icons i:hover{
   color: #94EFC7;
 }
-
+/*
+*posicion simbolos de basura
+*/
 .fa-trash-alt, .TrashHtmlOne, .TrashHtmlThree{
   float: right;
 }
 
+/*estado de personas de interés*/
+.fa-check{
+  color: green;
+  padding-left: 0.5em;
+}
+
+.fa-question-circle{
+  color: #7763DF;
+  padding-left: 0.5em;
+}
 /*
 contenedor creado desde js
 */
