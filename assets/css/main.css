@@ -226,14 +226,20 @@ h4 {
 /*
 *posicion simbolos de basura
 */
+.thumbnail>img{
+  height: 10em;
+}
+
 .fa-trash-alt, .TrashHtmlOne, .TrashHtmlThree{
   float: right;
 }
-
 /*estado de personas de interés*/
 .fa-check{
   color: green;
   padding-left: 0.5em;
+}
+.SWsection{
+  text-align: center;
 }
 
 .fa-question-circle{
