@@ -229,6 +229,9 @@ h4 {
 .thumbnail>img{
   height: 10em;
 }
+.oculto{
+  display: none;
+}
 
 .fa-trash-alt, .TrashHtmlOne, .TrashHtmlThree{
   float: right;

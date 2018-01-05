@@ -128,5 +128,17 @@ Funcion Password Login
       $('#key').attr('type', 'password');
     }
   }
-
+/*
+*función follow
+*/
+  $("#follow").click(function(){
+    $(this).addClass('oculto');
+    $("#success").removeClass('oculto');
+    $("#darkKnight").removeClass('oculto');
+  })
+  $("#success").click(function(){
+    $(this).addClass('oculto');
+    $("#follow").removeClass('oculto');
+    $("#darkKnight").addClass('oculto');
+  })
 });
